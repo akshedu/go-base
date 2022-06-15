@@ -9,9 +9,9 @@ import (
 	"net/http"
 	net_http "net/http"
 
+	"github.com/akshedu/go-base/utils/log"
 	kit_http "github.com/go-kit/kit/transport/http"
 	uuid "github.com/gofrs/uuid"
-	"github.com/unbxd/go-base/utils/log"
 )
 
 // NewTraceLoggerFinalizerHandlerOption returns a HandlerOption for simple trace logging

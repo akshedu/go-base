@@ -1,4 +1,4 @@
-module github.com/unbxd/go-base
+module github.com/akshedu/go-base
 
 go 1.17
 

@@ -7,7 +7,7 @@ import (
 	"runtime/debug"
 	"text/template"
 
-	"github.com/unbxd/go-base/utils/log"
+	"github.com/akshedu/go-base/utils/log"
 	"go.elastic.co/apm/module/apmhttp"
 )
 

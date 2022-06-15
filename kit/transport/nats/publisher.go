@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"time"
 
+	"github.com/akshedu/go-base/kit/endpoint"
 	natn "github.com/nats-io/nats.go"
 	"github.com/pkg/errors"
-	"github.com/unbxd/go-base/kit/endpoint"
 )
 
 type (

@@ -6,10 +6,10 @@ import (
 	"sync"
 
 	"github.com/DataDog/datadog-go/statsd"
-	"github.com/unbxd/go-base/kit/endpoint"
-	cbplugins "github.com/unbxd/go-base/net/cb/plugins"
-	"github.com/unbxd/go-base/utils/log"
-	"github.com/unbxd/go-base/utils/metrics"
+	"github.com/akshedu/go-base/kit/endpoint"
+	cbplugins "github.com/akshedu/go-base/net/cb/plugins"
+	"github.com/akshedu/go-base/utils/log"
+	"github.com/akshedu/go-base/utils/metrics"
 
 	"github.com/pkg/errors"
 	"github.com/unbxd/hystrix-go/hystrix"

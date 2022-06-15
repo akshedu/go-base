@@ -3,13 +3,13 @@ package nats
 import (
 	"context"
 
+	"github.com/akshedu/go-base/kit/endpoint"
+	"github.com/akshedu/go-base/utils/log"
 	kitep "github.com/go-kit/kit/endpoint"
 	"github.com/go-kit/kit/transport"
 	kitn "github.com/go-kit/kit/transport/nats"
 	natn "github.com/nats-io/nats.go"
 	"github.com/pkg/errors"
-	"github.com/unbxd/go-base/kit/endpoint"
-	"github.com/unbxd/go-base/utils/log"
 )
 
 type (

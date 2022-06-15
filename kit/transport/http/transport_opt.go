@@ -3,8 +3,8 @@ package http
 import (
 	"time"
 
+	"github.com/akshedu/go-base/utils/log"
 	kit_http "github.com/go-kit/kit/transport/http"
-	"github.com/unbxd/go-base/utils/log"
 )
 
 // WithMux sets the multiplexer for transport

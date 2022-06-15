@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/akshedu/go-base/utils/log"
 	"github.com/go-kit/kit/metrics/dogstatsd"
 	kitlogger "github.com/go-kit/log"
 	"github.com/mitchellh/mapstructure"
-	"github.com/unbxd/go-base/utils/log"
 )
 
 type (
